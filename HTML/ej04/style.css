@@ -1,0 +1,7 @@
+table,th,td {
+    border: 1px solid black;
+}
+img {
+    max-width: 20%;
+    height: auto;
+}
