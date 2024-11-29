@@ -1,0 +1,19 @@
+#a > div {
+    display: inline-block;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: cyan;
+}
+#b > div {
+    display: inline-block;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #999;
+}
+#c > div {
+    display: inline-block;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: lightsalmon;
+    border-radius: 25px;
+}
