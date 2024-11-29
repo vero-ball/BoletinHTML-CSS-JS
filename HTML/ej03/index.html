@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 03: formulario</title>
+</head>
+<body>
+    <h1>Ejercicio 03: formulario</h1>
+    <form action="">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre">
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos">
+        <fieldset id="direccion">
+            <legend>Dirección</legend>
+            <select name="tipo_via" id="tipo_via">
+                <option value="calle">C/</option>
+                <option value="avenida">Avd.</option>
+                <option value="lugar">Lg.</option>
+            </select>
+            <label for="via">Nombre de la vía: </label>
+            <input type="text" id="via">
+            <label for="cod_post">C.P.: </label>
+            <input type="number" id="cod_post">
+            <label for="ciudad">Ciudad: </label>
+            <input type="text" id="ciudad">
+            <label for="provincia">Provincia: </label>
+            <input type="text" id="provincia">
+            <label for="pais">País: </label>
+            <input type="text" id="pais">
+        </fieldset>
+        <label for="fecha_nac">Fecha de nacimiento: </label>
+        <input type="date" id="fecha_nac">
+        <label for="nota">Nota media: </label>
+        <input type="number" id="nota">
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" id="telefono">
+        <label for="email">Correo electrónico: </label>
+        <input type="email" id="email">
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password">
+        <label for="repetir_pass">Repetir contraseña: </label>
+        <input type="password" id="repetir_pass">
+        <label for="sel_pais">Seleccionar país: </label>
+        <select name="sel_pais" id="sel_pais">
+            <option value="espana">España</option>
+            <option value="francia">Francia</option>
+            <option value="portugal">Portugal</option>
+            <option value="andorra">Andorra</option>
+        </select>
+        <fieldset>
+            <p>Tipo de cuenta</p>
+            <input type="radio" id="gratuita" name="cuenta" value="Gratuita">
+            <label for="gratuita">Gratuita</label>
+            <input type="radio" id="basica" name="cuenta" value="Básica">
+            <label for="basica">Básica</label>
+            <input type="radio" id="premium" name="cuenta" value="Premium">
+            <label for="premium">Premium</label>
+        </fieldset>
+        <label for="sobre">Sobre mí: </label>
+        <textarea name="sobre" id="sobre"></textarea>
+        <label for="foto">Selecciona una foto: </label>
+        <input type="file" id="foto">
+        <label for="CV">Selecciona tu CV: </label>
+        <input type="file" id="CV">
+        <input type="submit" id="btn" value="Enviar">
+    </form>
+</body>
+</html>

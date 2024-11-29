@@ -1,0 +1,7 @@
+input, textarea, fieldset, select {
+    display: block;
+    margin-bottom: 0.5em;;
+}
+input[type=radio] {
+    display: inline;
+}
